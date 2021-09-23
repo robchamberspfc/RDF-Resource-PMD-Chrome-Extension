@@ -1,9 +1,21 @@
+
 button {
+  width:200px;
   font-weight: bold;
   font-size: 1.2em;
   line-height: 1.2;
-  color:white;
-  background-color: black;
-  margin: 20px;
+  color:#343a40;
+  background-color: #fff;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
   padding: 20px;
+  cursor: pointer;
+}
+
+button:hover, button:focus {
+  color: #fff;
+  background: #343a40 !important;
+  border-color: #343a40 !important;
 }
