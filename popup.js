@@ -19,7 +19,10 @@ function setLocationToResource() {
     text = document.selection.createRange().text;
   }
   currentURL = window.location.href
-  domain = currentURL.split("/tools/sparql")[0]
-  url = domain + "/resource?uri=" + text
+  domain = window.location.host
+  if(currentURL.includes("linked-data")==true){
+    domain = domain + "/linked-data"
+  }
+  url = window.location.protocol + "//" + domain + "/resource?uri=" + text
   window.open(url, '_blank').focus();
 }
