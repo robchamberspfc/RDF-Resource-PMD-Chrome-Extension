@@ -2,8 +2,9 @@
 
 A Chrome extension designed to allow selection of a URI in [PublishMydata](https://www.swirrl.com/) (PMD) and dereference that resource in a new tab.
 
+**This is an unpacked extension so you will need to have 'Extensions' set to 'developer mode to load.**
 
-You will need to have Extensions set to developer more to load unpacked extension.
+## Instructions for adding
 
 Go to `chrome://extensions/`
 Click `Load unpacked extensions`
