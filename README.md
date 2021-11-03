@@ -1,6 +1,6 @@
 # PMD SPARQL results dereference tool (Chrome Extension)
 
-A Chrome extension designed to allow selection of a URI in [PublishMydata](https://www.swirrl.com/) (PMD) and dereference that resource in a new tab.
+Chrome extension to allow selection of a URI in [PublishMydata](https://www.swirrl.com/) (PMD) and dereference that resource in a new tab.
 
 **This is an unpacked extension so you will need to have 'Extensions' set to 'developer mode to load.**
 
