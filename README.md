@@ -6,9 +6,11 @@ A Chrome extension designed to allow selection of a URI in [PublishMydata](https
 You will need to have Extensions set to developer more to load unpacked extension.
 
 Go to `chrome://extensions/`
-
 Click `Load unpacked extensions`
-
 Select this directory
 
-Pin extensions, select your link and away you go...
+Highlight the URI you want and click the button and a new tab will open with on the resources page for that URI.
+
+![Screenshot](/images/screenshot.png)
+
+You may also want to pin this extension to make it easier to use. 

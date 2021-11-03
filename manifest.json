@@ -1,6 +1,6 @@
 {
-  "name": "RDF resources page",
-  "description": "Takes the selected URI and opens the Muttnik RDF resources page for this URI in a new tab",
+  "name": "PMD URI dereference tool",
+  "description": "Takes the selected URI and opens the PMD RDF resources page for this URI in a new tab",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting"],

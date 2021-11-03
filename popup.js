@@ -12,17 +12,24 @@ button.addEventListener("click", async () => {
 });
 
 function setLocationToResource() {
-  let text = "";
+
+  //get selected text from DOM
+  let uri = "";
   if (window.getSelection) {
-    text = window.getSelection().toString();
+    uri = window.getSelection().toString();
   } else if (document.selection && document.selection.type != "Control") {
-    text = document.selection.createRange().text;
+    uri = document.selection.createRange().text;
   }
-  currentURL = window.location.href
-  domain = window.location.host
-  if(currentURL.includes("linked-data")==true){
+
+  let currentURL = window.location.href
+  let domain = window.location.host
+
+  //deal with special case for EA
+  if (currentURL.includes("linked-data") == true) {
     domain = domain + "/linked-data"
   }
-  url = window.location.protocol + "//" + domain + "/resource?uri=" + text
+
+  //build UTL for new page from current domain and 
+  url = window.location.protocol + "//" + domain + "/resource?uri=" + uri
   window.open(url, '_blank').focus();
 }
