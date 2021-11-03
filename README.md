@@ -12,6 +12,7 @@ Select this directory
 
 Highlight the URI you want and click the button and a new tab will open with on the resources page for that URI.
 
+### Screenshot showing one use case
 ![Screenshot](/images/screenshot.png)
 
-You may also want to pin this extension to make it easier to use. 
+You may also want to pin this extension (as shown in screenshot) to make it easier to use. 
